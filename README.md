@@ -4,7 +4,7 @@ An [open service broker](https://github.com/openservicebrokerapi/servicebroker)
 bridging the gap between Kubernetes deployments and CF marketplace.
 
 When deployed with a Helm chart and added to the marketplace,
-* `cf create-serive` calls to Kibosh will create the collection of Kubernetes resources described by the chart.
+* `cf create-service` calls to Kibosh will create the collection of Kubernetes resources described by the chart.
 * `cf bind-service` calls to Kibosh will expose back any services and secrets created by the chart
 
 The consumer of this repo is
